@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gelato Restaurant 🍨</title>
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <style>
+      /* HERO */
+      .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px 50px;
+        background: url("https://images.unsplash.com/photo-1505252585461-04db1eb84625")
+          no-repeat center/cover;
+        color: #fff;
+      }
+
+      .hero-text {
+        max-width: 50%;
+      }
+
+      .hero-text h1 {
+        font-size: 40px;
+        color: #ffd700;
+        margin-bottom: 20px;
+      }
+
+      .hero-text p {
+        font-size: 18px;
+        margin-bottom: 25px;
+      }
+
+      .hero-text button {
+        padding: 12px 25px;
+        background: #8b0000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .hero img {
+        width: 400px;
+        border-radius: 10px;
+        max-width: 100%;
+      }
+
+      /* FAQ */
+      .faq-item {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+      }
+
+      .faq-question {
+        font-weight: bold;
+        color: #8b0000;
+      }
+
+      .faq-answer {
+        margin-top: 10px;
+        color: #555;
+      }
+
+      /* MEDIA QUERY */
+    </style>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- logo -->
+      <div class="logo">🍦 Gelato</div>
+      <!-- navbar -->
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li>
+            <a href="./home.html">خانه</a>
+          </li>
+          <li>
+            <a href="./gilato home.html">منيو</a>
+          </li>
+          <li>
+            <a href="./features.html">ویژگی ها</a>
+          </li>
+          <li>
+            <a href="./about.html">درباره</a>
+          </li>
+          <li>
+            <a href="./gilato home.html">تماس</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- log in and sign in btn -->
+      <div class="button">
+        <button class="login">ورود</button>
+        <button class="login">ثبت</button>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>غذاهای خوشمزه و بستنی تازه 🍨</h1>
+        <p>از بهترین بستنی‌ها و غذاهای تازه بصورت آنلاین لذت ببرید</p>
+        <button>همین حال سفارش دهید</button>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+      <h2>ویژگی‌های ما</h2>
+      <div class="feature-container">
+        <div class="feature-card">
+          <div class="feature-icon">🍦</div>
+          <h3>بستنی تازه</h3>
+          <p>هر روز با مواد طبیعی تهیه شده</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🚚</div>
+          <h3>تحویل سریع</h3>
+          <p>سفارش شما سریع به درب منزل می‌رسد</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍕</div>
+          <h3>غذاهای خوشمزه</h3>
+          <p>منوی متنوع برای همه سلیقه‌ها</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <h2>مشتریان ما</h2>
+      <div class="testimonial-container">
+        <div class="testimonial-card">
+          <img src="file_00000000c090720a9a40b6c5237d3c5c.png" alt="User 1" />
+          <h3>Mahdi Hossaini</h3>
+          <p>
+            "بستنی فوق‌العاده است و تحویل سریع، حتما پیشنهاد میکنم استفاده
+            کنید."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUCCESS STORIES -->
+    <section class="success-stories">
+      <h2>داستان‌های موفقیت</h2>
+      <div class="stories-container">
+        <div class="story-card">
+          <h3>لذت شام خانوادگی</h3>
+          <p>
+            خانواده ما برای اولین بار سفارش داد و همه از بستنی و غذاها لذت بردند
+          </p>
+        </div>
+        <div class="story-card">
+          <h3>غذای ادارات</h3>
+          <p>برای تیم دفترمان سفارش دادیم، همه چیز تازه و به موقع رسید</p>
+        </div>
+        <div class="story-card">
+          <h3>جشن تولد</h3>
+          <p>
+            تولد دوست‌ام را با بستنی جشن گرفتیم. تجربه‌ای منحصر به فرد و لذت‌بخش
+            بود
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h2>سوال‌های متداول</h2>
+      <div class="faq-item">
+        <div class="faq-question">آیا رایگان است؟</div>
+        <div class="faq-answer">بله، دیدن منو بطور رایگان است</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">آیا اطلاعات من امن است؟</div>
+        <div class="faq-answer">بله، صددرصد با رمزگذاری محافظت شده است</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">آیا می‌توانم سفارش را لغو کنم؟</div>
+        <div class="faq-answer">بله، قبل از پردازش سفارش امکان‌پذیر است</div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div>
+          <h3>اطلاعات تماس</h3>
+          <p>رستورانت گیلاتو</p>
+          <p>هرات، سرک 14 متر بالا</p>
+          <p>شماره تلفن: +93 700 123 456</p>
+          <p>ایمیل: info@gelato.af</p>
+        </div>
+        <div>
+          <h3>ما را دنبال کنید</h3>
+          <p>
+            <a href="#">فیسبوک</a> | <a href="#">اینستاگرام</a> |
+            <a href="#">توییتر</a>
+          </p>
+        </div>
+        <div>
+          <h3>قوانین</h3>
+          <p><a href="#">حریم خصوصی</a></p>
+          <p><a href="#">شرایط استفاده</a></p>
+        </div>
+        <div>
+          <h3>خبرنامه</h3>
+          <p>برای دریافت آخرین پیشنهادها و به‌روزرسانی‌ها مشترک شوید</p>
+          <form>
+            <input type="email" placeholder="ایمیل شما" /><br /><br />
+            <button type="submit">اشتراک</button>
+          </form>
+        </div>
+      </div>
+      <div
+        style="
+          text-align: center;
+          margin-top: 30px;
+          font-size: 14px;
+          color: #ffd700;
+        "
+      >
+        &copy; همه حقوق این سایت متعلق به گیلاتو می‌باشد
+      </div>
+    </footer>
+  </body>
+</html>
